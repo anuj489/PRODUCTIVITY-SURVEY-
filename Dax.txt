@@ -1,0 +1,9 @@
+inerruptions = CALCULATE(COUNT(Survey[What is the biggest challenge you face to being productive?]),FILTER(Survey, Survey[What is the biggest challenge you face to being productive?] = "Constantly being interrupted by colleagues"))
+
+%Interruptions = [inerruptions] / COUNT(Survey[RespondentID])
+
+Distractions (e.g. Social Media)
+Time Management
+Other (please specify)
+Not having the right technology 
+
